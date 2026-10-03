@@ -32,7 +32,7 @@ import heroImage from "@/comparison/a/assets/hero-portrait.jpg";
 import heroPortrait from "@/comparison/b/assets/anti-aging-hero-v2.jpg";
 import { TreatmentPhoto } from "../TreatmentPhoto";
 import { WhatsAppIcon } from "../SiteChrome";
-import laserHeroLifestyle from "@/assets/laser-hero-lifestyle.jpg";
+import laserHeroMirror from "@/assets/laser-hero-mirror.webp";
 import mirrorImage from "@/comparison/a/assets/mirror.jpeg";
 import hospitalLogo from "@/assets/hospital-logo.png";
 import doctorKiruthika from "@/comparison/a/assets/doctor-kiruthika.jpg";
@@ -271,8 +271,8 @@ export function VersionA({ render, onAgeSelection }: { render: (sections: Record
           <figure className="hero-card">
             <div className="hero-card-frame">
               <img
-                src={laserHeroLifestyle}
-                alt="Illustrative lifestyle image of a relaxed woman getting ready at home (not a patient result)"
+                src={laserHeroMirror}
+                alt="Illustrative lifestyle image of a woman looking in the mirror at home (not a patient result)"
                 className="hero-card-image"
                 fetchPriority="high"
                 draggable={false}

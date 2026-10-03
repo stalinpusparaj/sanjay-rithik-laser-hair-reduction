@@ -4527,6 +4527,5 @@ html { scroll-behavior: smooth; }
   .enhanced-site #a-top .hero-split-title,
   .enhanced-site #a-top .hero-split-title .hero-title-sub { font-size: clamp(36px, 10vw, 46px); }
 }
-/* Landscape lifestyle hero: keep the woman in frame (and the corner watermark out). */
-.enhanced-site #a-top .hero-card-frame { aspect-ratio: 16 / 11; }
-.enhanced-site #a-top .hero-card-image { object-position: 68% 45%; }
+/* Portrait mirror hero: keep her face (the reflection) in frame. */
+.enhanced-site #a-top .hero-card-image { object-position: 30% 25%; }
